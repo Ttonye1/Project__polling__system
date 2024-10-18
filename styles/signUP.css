@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../images/dark__mountain_2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 400px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background:color-mix(in srgb, white 5%, transparent 100%);
+    /* backdrop-filter: blur(10px); */
+}
+
+.form__container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.form__container h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 3px;
+}
+
+.form__container input{
+    width: 340px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid white;
+    padding: 10px 0;
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+    margin-bottom: 1em;
+}
+
+.form__container div input[type='checkbox']{
+    width: 20px;
+}
+
+.form__container span{
+    color: white;
+    font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form__container span a{
+    text-decoration: none;
+    color: red;;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 3rem;
+    border: none;
+    background-color: black;
+    color: white;
+    /* margin: 0 5em; */
+    cursor: pointer;
+}
